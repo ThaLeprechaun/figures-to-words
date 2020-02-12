@@ -9,7 +9,7 @@ if (num < 0 || num > 999999999) {
   return result = 'Out of range'
 };
 
-if (!num || typeof num != 'number') {
+if (!num) {
   alert('Enter a valid number');
   return result;
 }
