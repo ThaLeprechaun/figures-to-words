@@ -1,0 +1,6 @@
+Function to convert any number less than a Billion to words
+- Store unit value words in an array i.e numbers less than 20.
+- Store tens value words in array.
+- Check if the number to be converted is of unit value or less than 20. if yes, return the element in the position of the units array.
+- if the number is greater than 20, divide the number by the place value it falls in i.e (either 10's, 100's, 1000's etc). Then, return the element in the position of any of the arrays using a combination of both. i.e units and tens array elemnts.
+- Repeat the process recursively.
